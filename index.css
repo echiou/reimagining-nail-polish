@@ -5,8 +5,8 @@ html,body{
 }
 
 .header{
-    padding-top: 0px !important;
-    padding-bottom: 0px !important;
+    padding-top: 30px !important;
+    padding-bottom: 30px !important;
 }
 
 .section{
@@ -170,7 +170,60 @@ a.name{
 }
 
 .botp{
+    font-size: 17px;
     padding-top: 10px;
     padding-bottom: 10px;
     text-align: center;
+}
+
+/* Adjusting for different sizes */
+@media 
+only screen and (max-width: 1000px)
+{
+    .copy{
+        width: 600px;
+    }
+    
+    .disapp{
+        display: none;
+    }
+    
+    .polishdiv{
+        width: 200px;
+    }
+    
+    .nailpolishholder{
+        width: 500px;
+    }
+    
+    .soldiv{
+        float: none;
+        width: 600px;
+    }
+    
+    .sol{
+        width: 180px;
+        padding-bottom: 0px;
+        padding-left: 0px;
+    }
+    
+    .solp{
+        height: 185px;
+        padding-right: 0px;
+        padding-left: 0px;
+    }
+    
+    .mar{
+        float: none;
+        padding-right: 95px;
+        padding-left: 95px;
+    }
+        
+}
+
+/* iPads */
+@media
+only screen and (min-device-width: 768px) and (max-device-width: 1024px) 
+{
+    
 }
