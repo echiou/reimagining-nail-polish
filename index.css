@@ -1,0 +1,176 @@
+html,body{
+    background: #E5F2ED;
+    margin: 0px;
+    text-align: center;
+}
+
+.header{
+    padding-top: 0px !important;
+    padding-bottom: 0px !important;
+}
+
+.section{
+    width: 100%;
+    padding-top: 40px;
+    padding-bottom: 50px;
+}
+
+.center{
+    text-align: center !important;
+}
+
+.nobot{
+    padding-bottom: 0px !important;
+}
+
+.presence{
+    font-size: 1px;
+    top: -1px;
+}
+
+.white{
+    background: white !important;
+}
+
+.turq{
+    background: #88D3B0;
+}
+
+.pink{
+    background: #E7CADE;
+}
+
+.copy{
+    width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h1{
+    font-family: 'bebas_neuebook', sans-serif;
+    font-size: 70px;
+    color: black;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-bottom: 30px;
+}
+
+h2{
+    font-family: 'bebas_neuebook', sans-serif;
+    font-size: 30px;
+    color: black;
+    margin: 0px;
+}
+
+h3{
+    font-family: 'klinic_slabbook', sans-serif;
+    color: white;
+    font-size: 40px;
+    padding-top: 35px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+p{
+    font-family: 'klinic_slabbook', sans-serif;
+    font-size: 22px;
+    color: black;
+    text-align: justify;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+    border-bottom: 1px solid black;
+}
+
+a:hover{
+    color: #88D3B0;
+    border-bottom: 1px solid #88D3B0;
+}
+
+a.name{
+    color: #88D3B0;
+    border-bottom: 0px;
+}
+
+.polishdiv{
+    width: 180px;
+    float: left;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.nailp{
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 15px;
+}
+
+.nailpolish{
+    width: 140px;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-bottom: 10px;
+    padding-top: 15px;
+}
+
+.nailpolishholder{
+    width: 700px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.soldiv{
+    width: 300px;
+    float:left;
+}
+
+.sol{
+    width: 240px;
+    padding: 30px;
+    padding-top: 0px;
+    float: left;
+}
+
+.solp{
+    padding-right: 30px;
+    padding-left: 30px;
+    padding-top: 15px;
+}
+
+.limdiv{
+    width: 600px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.lim{
+    width: 110px;
+    padding-right: 40px;
+    padding-bottom: 40px;
+    float: left;
+}
+
+.limp{
+    width: 450px;
+    height: 150px;
+    float: right;
+}
+ 
+.mar{
+    float: left;
+    width: 410px;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.botp{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+}
