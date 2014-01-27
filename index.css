@@ -4,6 +4,46 @@ html,body{
     text-align: center;
 }
 
+/* Navigation Circles */
+#navigator{
+    position: fixed;
+    height: 100%;
+    width: calc(100% - 15px);
+}
+#floater{height: calc(50% - 81px); width: 100%}
+#navdots{
+    float: right;
+    height: 162px;
+}
+.circle{
+    background: #fff;
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    cursor: pointer;
+    border: 4px solid white;
+    margin: -4px;
+    transition: background 0.3s ease-in-out, border 0.3s ease-in-out;
+}
+.spacer{
+    height: 30px;
+}
+.sect1:hover, .sect1.current{
+    background: #A55C71;
+}
+.sect2:hover, .sect2.current{
+    background: #88D3B0;
+}
+.sect3:hover, .sect3.current{
+    background: #15133A;
+}
+.sect4:hover, .sect4.current{
+    background: #E7CADE;
+}
+
+
+
+
 .header{
     padding-top: 30px !important;
     padding-bottom: 30px !important;
@@ -23,21 +63,26 @@ html,body{
     padding-bottom: 0px !important;
 }
 
-.presence{
-    font-size: 1px;
-    top: -1px;
-}
-
 .white{
     background: white !important;
 }
 
+.grey1{
+    height: 775px;
+}
+
 .turq{
     background: #88D3B0;
+    height: 1034px;
+}
+
+.grey2{
+    height: 368px;
 }
 
 .pink{
     background: #E7CADE;
+    height: 851px;
 }
 
 .copy{
@@ -180,6 +225,28 @@ a.name{
 @media 
 only screen and (max-width: 1000px)
 {
+    #navigator{
+        display: none;
+    }
+    
+    .grey1{
+        height: 910px;
+    }
+    
+    .turq{
+        background: #88D3B0;
+        height: 1132px;
+    }
+    
+    .grey2{
+        height: 368px;
+    }
+    
+    .pink{
+        background: #E7CADE;
+        height: 991px;
+    }
+
     .copy{
         width: 600px;
     }
