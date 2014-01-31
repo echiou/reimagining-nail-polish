@@ -13,6 +13,7 @@ html,body{
 }
 #floater{height: calc(50% - 81px); width: 100%}
 #navdots{
+    pointer-events: auto;
     float: right;
     height: 162px;
 }
