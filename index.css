@@ -135,10 +135,10 @@ a{
 
 a:hover{
     color: #88D3B0;
-    border-bottom: 1px solid #88D3B0;
+    border-bottom: 1px solid #88D3B0 !important;
 }
 
-a.name{
+a.footer-link{
     color: #88D3B0;
     border-bottom: 0px;
 }
@@ -206,7 +206,7 @@ a.name{
     height: 150px;
     float: right;
 }
- 
+
 .mar{
     float: left;
     width: 410px;
@@ -224,26 +224,26 @@ a.name{
 }
 
 /* Adjusting for different sizes */
-@media 
+@media
 only screen and (max-width: 1000px)
 {
     #navigator{
         display: none;
     }
-    
+
     .grey1{
         height: 910px;
     }
-    
+
     .turq{
         background: #88D3B0;
         height: 1132px;
     }
-    
+
     .grey2{
         height: 368px;
     }
-    
+
     .pink{
         background: #E7CADE;
         height: 991px;
@@ -252,47 +252,55 @@ only screen and (max-width: 1000px)
     .copy{
         width: 600px;
     }
-    
+
     .disapp{
         display: none;
     }
-    
+
     .polishdiv{
         width: 200px;
     }
-    
+
     .nailpolishholder{
         width: 500px;
     }
-    
+
     .soldiv{
         float: none;
         width: 600px;
     }
-    
+
     .sol{
         width: 180px;
         padding-bottom: 0px;
         padding-left: 0px;
     }
-    
+
     .solp{
         height: 185px;
         padding-right: 0px;
         padding-left: 0px;
     }
-    
+
     .mar{
         float: none;
         padding-right: 95px;
         padding-left: 95px;
     }
-        
+
+}
+
+/* Selection */
+::selection {
+    background: white;
+}
+::-moz-selection {
+    background: white;
 }
 
 /* iPads */
 @media
-only screen and (min-device-width: 768px) and (max-device-width: 1024px) 
+only screen and (min-device-width: 768px) and (max-device-width: 1024px)
 {
-    
+
 }
